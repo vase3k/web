@@ -1,17 +1,29 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   background-color: antiquewhite;
 }
 
-.img__jedi > a {
-  position: relative;
-  z-index: 1;
+.wrapper {
+  width: 100vw;
+  height: fit-content;
+  background-color: azure;
 }
 
-.img__jedi > img {
-  position: relative;
-  bottom: 40px;
+div {
+  width: 20vw;
+  height: 30vh;
+  background-color: red;
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+  border: 2px black solid;
+}
+
+.green {
+  width: 50%;
 }
