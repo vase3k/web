@@ -11,6 +11,7 @@ nav {
   background-color: rgb(33, 33, 33);
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 
 .menu {
@@ -144,4 +145,74 @@ nav {
   font-size: 18px;
   font-weight: 400;
   text-transform: uppercase;
+}
+
+.reasons {
+  padding: 20px 0 20px 0;
+  height: 799px;
+  background-color: #fff;
+}
+
+.reasons_title {
+  width: 113px;
+  height: 24px;
+  color: rgb(255, 255, 255);
+  font-size: 11px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 24px;
+  text-transform: uppercase;
+  background-color: #260b0b;
+  margin: 0 auto;
+}
+
+.reasons_subtitle {
+  margin-top: 20px;
+  color: rgb(34, 34, 34);
+  font-size: 38px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.reasons .row {
+  margin-top: 17px;
+}
+
+.reasons .col-md-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.reasons .reasons_item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.reasons .reasons_round {
+  width: 116px;
+  height: 116px;
+  background-color: rgb(30, 172, 199);
+  border-radius: 100%;
+  display: flex;
+}
+
+.reasons .reasons_thumb {
+  margin: auto;
+}
+
+.reasons .reasons_descr {
+  width: 371px;
+  font-size: 15px;
+  font-weight: 300;
+  text-align: left;
+  color: rgb(32, 32, 32);
+}
+
+.reasons .reasons_descr > span {
+  color: rgb(30, 172, 199);
+  font-size: 17px;
+  font-weight: 400;
 }
