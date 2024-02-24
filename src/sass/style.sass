@@ -1,0 +1,23 @@
+$text_color: blue
+=box 
+    display: block
+    width: 250px
+    height: 200px
+    background-color: red
+    
+h1 
+    color: $text_color
+    +box
+h2  
+    color: $text_color
+.block  
+    background-color: black
+    h3
+        color: $text_color
+    &_color
+        background-color: $text_color
+        button
+            +box
+    .block_color
+        background-color: $text_color
+  
