@@ -12,6 +12,8 @@ h2 {
 
 .block {
   background-color: black;
+  -webkit-transition: 1s all;
+  transition: 1s all;
 }
 .block h3 {
   color: blue;
