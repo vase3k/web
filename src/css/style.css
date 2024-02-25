@@ -195,7 +195,7 @@ nav {
   margin-right: 26px;
   width: 113px;
   height: 113px;
-  background-color: "#1EACC7";
+  background-color: #1eacc7;
   border-radius: 100%;
 }
 .reasons .reasons_block .reasons_descr {
@@ -203,7 +203,7 @@ nav {
 }
 .reasons .reasons_block .reasons_descr .reasons_subtitle {
   line-height: 21px;
-  color: "#1EACC7";
+  color: #1eacc7;
   font-size: 17px;
   font-weight: 400;
 }
