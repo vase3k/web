@@ -8,7 +8,7 @@ header {
 
 nav {
   height: 50px;
-  background-color: rgb(33, 33, 33);
+  background-color: #000;
   position: fixed;
   width: 100%;
   z-index: 1;
@@ -26,11 +26,11 @@ nav {
   list-style-type: none;
 }
 .menu .menu_item:not(:last-child) {
-  border-right: 2px dotted black;
+  border-right: 2px dotted #000;
   padding-right: 28px;
 }
 .menu .menu_link {
-  color: rgb(255, 255, 255);
+  color: #fff;
   font-size: 15px;
   font-weight: 300;
   text-decoration: none;
@@ -57,7 +57,7 @@ nav {
 }
 .subheader .subheader_call {
   margin-top: 16px;
-  color: rgb(255, 255, 255);
+  color: #fff;
   font-size: 12px;
   font-weight: 300;
   text-align: right;
@@ -65,7 +65,7 @@ nav {
 .subheader .subheader_phone {
   display: block;
   margin-top: 8px;
-  color: rgb(255, 255, 255);
+  color: #fff;
   font-size: 22px;
   font-weight: 400;
   text-transform: uppercase;
@@ -82,7 +82,7 @@ nav {
   border: 0;
   background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(30, 172, 199)), to(rgb(76, 226, 255)));
   background-image: linear-gradient(0deg, rgb(30, 172, 199), rgb(76, 226, 255) 100%);
-  color: rgb(255, 255, 255);
+  color: #fff;
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
@@ -141,8 +141,8 @@ nav {
   height: 24px;
   width: 112px;
   padding: 5px 12px;
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #000;
+  color: #fff;
   font-size: 11px;
   font-weight: 300;
   text-transform: uppercase;
@@ -152,12 +152,11 @@ nav {
 .title {
   margin-bottom: 0;
   margin-top: 38px;
-  color: #222222;
+  color: rgb(34, 34, 34);
   font-size: 38px;
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
-  font-size: normal;
 }
 
 .subtitle {
@@ -165,7 +164,7 @@ nav {
   font-weight: 400;
   font-size: 17px;
   text-align: center;
-  color: #222;
+  color: rgb(34, 34, 34);
 }
 
 .reasons {
@@ -196,7 +195,7 @@ nav {
   margin-right: 26px;
   width: 113px;
   height: 113px;
-  background-color: #1eacc7;
+  background-color: "#1EACC7";
   border-radius: 100%;
 }
 .reasons .reasons_block .reasons_descr {
@@ -204,12 +203,12 @@ nav {
 }
 .reasons .reasons_block .reasons_descr .reasons_subtitle {
   line-height: 21px;
-  color: #1eacc7;
+  color: "#1EACC7";
   font-size: 17px;
   font-weight: 400;
 }
 .reasons .reasons_block .reasons_descr .reasons_text {
-  color: #202020;
+  color: rgb(34, 34, 34);
   font-size: 15px;
   font-weight: 300;
   line-height: 21px;
@@ -249,7 +248,7 @@ nav {
   background: url("../img/card6.png") center/cover no-repeat;
 }
 .mobile_item_subtitle {
-  color: rgb(255, 255, 255);
+  color: #fff;
   font-size: 24px;
   font-weight: 400;
   text-align: center;
@@ -266,10 +265,10 @@ nav {
       -ms-flex-align: center;
           align-items: center;
   position: absolute;
-  bottom: 34px;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+  bottom: 34px;
   width: 29px;
   height: 29px;
   background-color: #000;
@@ -279,4 +278,36 @@ nav {
 .mobile_item_plus img {
   width: 17px;
   height: 17px;
+}
+
+.chose {
+  height: 989px;
+  padding: 59px 0 138px;
+  background: url("../img/bg/mobile_bg.jpeg") center 501px/cover no-repeat rgb(7, 7, 22);
+}
+.chose .label {
+  background-color: #fff;
+  color: rgb(7, 7, 22);
+}
+.chose .title {
+  color: #fff;
+}
+.chose .subtitle {
+  margin-top: 26p;
+  color: #fff;
+}
+.chose_car_item {
+  margin: 54px auto 0;
+  max-width: 759px;
+}
+.chose_car_item img {
+  width: 100%;
+}
+.chose_descr {
+  margin: 0 auto;
+  color: rgb(34, 34, 34);
+  font-size: 17px;
+  font-weight: 300;
+  width: 327px;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
