@@ -152,7 +152,7 @@ nav {
 .title {
   margin-bottom: 0;
   margin-top: 38px;
-  color: rgb(34, 34, 34);
+  color: #222222;
   font-size: 38px;
   font-weight: 700;
   text-transform: uppercase;
@@ -164,7 +164,7 @@ nav {
   font-weight: 400;
   font-size: 17px;
   text-align: center;
-  color: rgb(34, 34, 34);
+  color: #222222;
 }
 
 .reasons {
@@ -208,7 +208,7 @@ nav {
   font-weight: 400;
 }
 .reasons .reasons_block .reasons_descr .reasons_text {
-  color: rgb(34, 34, 34);
+  color: #222222;
   font-size: 15px;
   font-weight: 300;
   line-height: 21px;
@@ -305,7 +305,7 @@ nav {
 }
 .chose_descr {
   margin: 0 auto;
-  color: rgb(34, 34, 34);
+  color: #222222;
   font-size: 17px;
   font-weight: 300;
   width: 327px;
