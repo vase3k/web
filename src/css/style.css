@@ -497,6 +497,7 @@ nav {
 .footer_round {
   width: 35px;
   height: 35px;
+  color: #fff;
   background-color: #070716;
   border-radius: 100%;
   display: -webkit-box;
@@ -516,6 +517,10 @@ nav {
 .footer_round:hover {
   -webkit-transform: translateY(-4px);
           transform: translateY(-4px);
+}
+.footer_round i {
+  color: #fff;
+  font-size: 18px;
 }
 .footer_store {
   display: -webkit-box;
