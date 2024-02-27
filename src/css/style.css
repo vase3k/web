@@ -774,6 +774,13 @@ nav {
   .menu {
     width: 85%;
   }
+  .menu_item {
+    text-align: center;
+    padding: 5px 0;
+  }
+  .menu_link {
+    display: block;
+  }
   .subheader {
     top: 30px;
     height: 60px;
