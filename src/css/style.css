@@ -747,7 +747,11 @@ nav {
   }
 }
 @media (max-width: 575px) {
+  nav {
+    height: 30px;
+  }
   .subheader {
+    top: 30px;
     height: 60px;
   }
   .subheader_official {
@@ -766,8 +770,8 @@ nav {
     margin-top: 9px;
   }
   .promo {
-    height: 450px;
-    padding: 155px 0 35px;
+    height: 430px;
+    padding: 135px 0 35px;
   }
   .promo_descr {
     display: none;
