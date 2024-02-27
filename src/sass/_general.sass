@@ -6,6 +6,8 @@ nav
     position: fixed 
     width: 100% 
     z-index: 1 
+.hamburger
+    display: none
 .menu 
     display: flex 
     justify-content: space-between 
@@ -193,7 +195,7 @@ nav
             text-transform: uppercase
         &_plus
             @include flexBoxCenter
-            @include positionCenterBottom
+            @include positionCenterLeft
             bottom: 34px
             width: 29px
             height: 29px
@@ -203,7 +205,7 @@ nav
             &:before
                 transition: all 0.5s 
                 content: ''
-                @include positionCenterBottom
+                @include positionCenterLeft
                 display: block
                 width: 14px
                 height: 2px
@@ -389,3 +391,5 @@ nav
             background-position: right
         a:hover
             transform: translateY(-4px)
+.xs_visible
+    display: none
