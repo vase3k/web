@@ -336,7 +336,7 @@ nav {
   color: rgb(255, 255, 255);
 }
 .chose .subtitle {
-  margin-top: 26p;
+  margin-top: 26px;
   color: rgb(255, 255, 255);
 }
 .chose_car_item {
@@ -659,6 +659,13 @@ nav {
   .reasons_text {
     margin-top: 5px;
   }
+  .footer {
+    max-height: unset;
+  }
+  .footer_social, .footer_store {
+    position: static;
+    margin: 15px auto 0;
+  }
 }
 @media (max-width: 767px) {
   .menu {
@@ -745,10 +752,27 @@ nav {
   .promo_btn {
     margin-top: 98px;
   }
+  .mobile_item {
+    width: 245px;
+  }
+  .chose {
+    height: 850px;
+    padding-bottom: 54px;
+  }
+  .footer {
+    max-height: unset;
+  }
+  .footer_social, .footer_store {
+    position: static;
+    margin: 15px auto 0;
+  }
 }
 @media (max-width: 575px) {
   nav {
     height: 30px;
+  }
+  .menu {
+    width: 85%;
   }
   .subheader {
     top: 30px;
@@ -801,14 +825,105 @@ nav {
   .reasons_round {
     margin-right: 0;
   }
+  .mobile {
+    padding-bottom: 43px;
+  }
+  .mobile_item {
+    width: 290px;
+    height: 254px;
+    padding: 80px 33px 21px;
+  }
+  .mobile_item_subtitle {
+    font-size: 18px;
+  }
+  .mobile_item_plus {
+    bottom: 21px;
+  }
+  .mobile .label {
+    margin-top: 26px;
+  }
+  .mobile .title {
+    margin-top: 14px;
+    font-size: 16px;
+  }
+  .mobile .subtitle {
+    font-size: 14px;
+  }
+  .mobile .row {
+    margin-top: 8px;
+  }
+  .chose {
+    height: 393px;
+    padding: 27px 0 31px;
+  }
   .chose_descr {
     width: 100%;
+    color: rgb(255, 255, 255);
+    margin-top: 23px;
+  }
+  .chose_car_item {
+    margin-top: 34px;
+  }
+  .chose .title, .chose .subtitle {
+    display: none;
+  }
+  .require {
+    padding: 24px 0 15px;
+  }
+  .require .title {
+    margin-top: 14px;
+    font-size: 16px;
+  }
+  .require_title {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  .require_block {
+    margin: 15px 0;
+  }
+  .require_list {
+    padding-left: 29px;
+    margin-top: 3px;
+  }
+  .require_list li {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  .require_list li::before {
+    left: -28px;
+  }
+  .world {
+    height: 360px;
+    background-size: cover;
+  }
+  .world .label {
+    padding: 4px 12px;
+  }
+  .world .title {
+    font-size: 16px;
+  }
+  .world .subtitle {
+    font-size: 14px;
+  }
+  .world .note {
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+  }
+  .footer {
+    max-height: unset;
+    padding-bottom: 18px;
   }
   .footer_middle {
     width: 100%;
     font-size: 9px;
   }
-  .menu {
-    width: 85%;
+  .footer_social {
+    position: static;
+    margin: 15px auto 0;
+  }
+  .footer_store {
+    position: static;
+    margin: 15px auto 0;
   }
 }/*# sourceMappingURL=style.css.map */

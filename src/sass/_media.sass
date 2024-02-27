@@ -64,6 +64,12 @@
             margin-top: 10px
         &_text
             margin-top: 5px
+    .footer
+        max-height: unset
+        &_social, &_store
+            position: static
+            margin: 15px auto 0
+
 @media (max-width: 767px)
     .menu
         position: fixed
@@ -124,9 +130,22 @@
             line-height: 45px
         &_btn
             margin-top: 98px
+    .mobile
+        &_item
+            width: 245px
+    .chose
+        height: 850px
+        padding-bottom: 54px
+    .footer
+        max-height: unset
+        &_social, &_store
+            position: static
+            margin: 15px auto 0
 @media (max-width: 575px)
     nav
         height: 30px
+    .menu
+        width: 85%
     .subheader
         top: 30px
         height: 60px
@@ -164,12 +183,76 @@
             margin-top: 24px
         &_round
             margin-right: 0
+    .mobile
+        padding-bottom: 43px
+        &_item
+            width: 290px
+            height: 254px
+            padding: 80px 33px 21px
+            &_subtitle
+                font-size: 18px
+            &_plus
+                bottom: 21px    
+        .label
+            margin-top: 26px
+        .title
+            margin-top: 14px
+            font-size: 16px
+        .subtitle
+            font-size: 14px
+        .row
+            margin-top: 8px
     .chose
+        height: 393px
+        padding: 27px 0 31px
         &_descr
             width: 100%
+            color: $white
+            margin-top: 23px
+        &_car_item
+            margin-top: 34px
+        .title, .subtitle
+            display: none
+    .require
+        padding: 24px 0 15px
+        .title
+            margin-top: 14px
+            font-size: 16px
+        &_title
+            font-size: 16px
+            margin-bottom: 30px
+        &_block
+            margin: 15px 0
+        &_list
+            padding-left: 29px
+            margin-top: 3px
+            li
+                margin-bottom: 5px
+                font-size: 14px
+                &::before
+                    left: -28px
+    .world
+        height: 360px
+        background-size: cover
+        .label
+            padding: 4px 12px
+        .title
+            font-size: 16px
+        .subtitle
+            font-size: 14px
+        .note
+            font-size: 15px
+            width: 100%
+            text-align: center
     .footer
+        max-height: unset
+        padding-bottom: 18px
         &_middle
             width: 100%
             font-size: 9px
-    .menu
-        width: 85%
+        &_social
+            position: static
+            margin: 15px auto 0
+        &_store
+            position: static
+            margin: 15px auto 0
